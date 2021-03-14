@@ -17,7 +17,7 @@ const Display = (props) => {
             {
                 isNaN(+ props.content) ?
                 <p style={pStyle}>The word is: { props.content }</p> :
-                <p style={pStyle}>The number is: { props.content }</p>
+                <p>The number is: { props.content }</p>
             }
         </div>
     );
